@@ -7,9 +7,12 @@
 </head>
 <body>
     <fieldset>
+        <!-- Header Section -->
     <legend><h1>Students Information From</h1></legend>
     <p>Fill out all the field to register for the event</p>
     <form action="#">
+
+        <!-- Information Section -->
         <label for="Full Name">Fullname:</label>
         <input type="text" id="fullname" placeholder="enter your name" required>
         <br><br>
@@ -42,13 +45,15 @@
         </select>
         <br><br>
         <label for="image">
-            <img width="150" src="/image/pofile.jpg" alt="">
+            <img width="150" src="./image/pofile.jpg" alt="">
         </label>
         <input id="image" hidden type="file" accept=".png">
         <br><br>
         <label for="Description">Description:</label> <br>
         <textarea placeholder="enter your opintion" rows="10" cols="60" name="" id=""></textarea>
         <br><br>
+
+        <!-- Submit & Reset Button Section -->
         <button type="submit">submit your documents </button>
         <button type="reset">reset</button>
         </form>
